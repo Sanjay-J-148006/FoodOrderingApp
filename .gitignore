@@ -10,3 +10,8 @@
 .cxx
 *.apk
 *.aab
+
+# Firebase configuration (sensitive keys)
+google-services.json
+/app/google-services.json
+

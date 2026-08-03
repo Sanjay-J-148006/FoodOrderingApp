@@ -51,10 +51,10 @@ com.cognevance.foodapp
 1. **Clone/Open the Repository**: Open the project folder (`FoodOrderingApp`) in the latest stable version of Android Studio.
 2. **Setup Firebase**:
    - Go to the [Firebase Console](https://console.firebase.google.com/).
-   - Create a new project named "Food Ordering App".
+   - Create a new project (e.g. "Food Ordering App").
    - Add an Android App with the package name `com.cognevance.foodapp`.
-   - Download the `google-services.json` file.
-   - Place `google-services.json` in the `app/` directory of this project.
+   - Download your own `google-services.json` file from Firebase Console (or copy `app/google-services.json.example` to `app/google-services.json` and enter your Firebase API keys and project credentials).
+   - Place `google-services.json` in the `app/` directory of this project (`app/google-services.json`).
    - Enable **Email/Password Authentication** in Firebase Auth.
    - Enable **Cloud Firestore** and start in test mode (or update security rules for authenticated users).
 3. **Sync Project**: Click "Sync Project with Gradle Files" in Android Studio.

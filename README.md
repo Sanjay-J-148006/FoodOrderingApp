@@ -48,7 +48,11 @@ com.cognevance.foodapp
 
 ## Installation & Firebase Setup
 
-1. **Clone/Open the Repository**: Open the project folder (`FoodOrderingApp`) in the latest stable version of Android Studio.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Sanjay-J-148006/FoodOrderingApp.git
+   ```
+   Open the project folder in the latest stable version of Android Studio.
 2. **Setup Firebase**:
    - Go to the [Firebase Console](https://console.firebase.google.com/).
    - Create a new project (e.g. "Food Ordering App").
@@ -57,8 +61,9 @@ com.cognevance.foodapp
    - Place `google-services.json` in the `app/` directory of this project (`app/google-services.json`).
    - Enable **Email/Password Authentication** in Firebase Auth.
    - Enable **Cloud Firestore** and start in test mode (or update security rules for authenticated users).
-3. **Sync Project**: Click "Sync Project with Gradle Files" in Android Studio.
-4. **Run App**: Select an emulator or physical device and run the app.
+3. **Sync & Run**:
+   - Click "Sync Project with Gradle Files" in Android Studio.
+   - Select an emulator or physical device and click **Run**.
 
 ## Screenshots
 
